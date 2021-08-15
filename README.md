@@ -63,11 +63,7 @@ We can execute test cases in Jenkins using 4 ways
 
 Execute as "Execute Windows batch command" way:
 1. Create a batch file add the same batch file to Jenkins
-2. Create a job in Jenkins which will execute our build -> Open Jenkins on browser (type http://localhost:8080) -> Click on the new item -> Give the Job-Name, select Build a free-style software 
-
-project and Click on OK button -> Navigate to Advanced Project Options > Check the use custom workspace > in directory we will specify the project home directory -> Important part now specify the 
-
-Add Build step >Click on Execute Windows batch command -> In this section please specify the batch file which we created and click on Apply and save
+2. Create a job in Jenkins which will execute our build -> Open Jenkins on browser (type http://localhost:8080) -> Click on the new item -> Give the Job-Name, select Build a free-style software project and Click on OK button -> Navigate to Advanced Project Options > Check the use custom workspace > in directory we will specify the project home directory -> Important part now specify the Add Build step >Click on Execute Windows batch command -> In this section please specify the batch file which we created and click on Apply and save
 3. you can finally run the Build > Click on Build now  option
 4. Check Build history and Console output and verify the output
 5. Also Schedule your build in Jenkins for periodic execution
